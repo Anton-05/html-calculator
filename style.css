@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+#output{
+    width: 450px;
+    height: 639px;
+    border: solid 2px black;
+    background-color: gray;
+    margin-left: 546px;
+    margin-top: 62px;
+}
+
+#screen{
+    width: 80%;
+    height: 60px;
+    padding: 5px;
+    margin: 33px;
+    pointer-events: none;
+}
+
+.btn{
+    width: 60px;
+    height: 50px;
+    margin: 23px;
+    background-color: black;
+    color: white;
+}
+
+.text{
+    float: right;
+    margin-right: 76px;
+    margin-top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    #output {
+      margin-left: 200px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    #output {
+      margin-left: 1px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    #output {
+      margin-left: 20px;
+    }
+  }
